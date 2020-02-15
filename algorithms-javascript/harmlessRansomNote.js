@@ -17,8 +17,8 @@ function harmlessRansomNote(noteText, magazineText) {
         else noteIsPassible = false;
     });
 
-    console.log(noteIsPassible);
+    // console.log(noteIsPassible);
     return noteIsPassible;
 }
 
-harmlessRansomNote('this is all the magazine text in the magazine', 'this is all the magazine text in the magazine sfsdf');
+// harmlessRansomNote('this is all the magazine text in the magazine', 'this is all the magazine text in the magazine sfsdf');
