@@ -9,4 +9,4 @@ function fizzBuzz(num){
 
 // Test
 // fizzBuzz(20);
-fizzBuzz(30);
+// fizzBuzz(30);
