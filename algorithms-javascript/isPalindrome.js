@@ -19,4 +19,4 @@ function reverseString(str) {
 // console.log(reverseString("Hello!"));
 
 // console.log(isPalindrome("Madam I'm Adam"));
-console.log(isPalindrome("race car"));
+// console.log(isPalindrome("race car"));
