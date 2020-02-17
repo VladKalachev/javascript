@@ -23,4 +23,4 @@ function caesarCipher(str, num) {
     return newString;
 }
 
-console.log(caesarCipher('Zoo Keeper', 2));
+// console.log(caesarCipher('Zoo Keeper', 2));
