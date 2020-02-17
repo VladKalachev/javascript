@@ -14,5 +14,4 @@ function reverseWords(string) {
 }
 
 // test
-
 // console.log(reverseWords('Hello JavaScript'));
