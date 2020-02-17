@@ -11,4 +11,4 @@ function fibMemo(index, cache) {
     return cache[index];
 }
 
-console.log(fibMemo(12));
+// console.log(fibMemo(12));
