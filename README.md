@@ -15,5 +15,5 @@
  2.2 Memoized Fibonacci - Мемоизация
  2.3 Sieve of Eratosthenes
  2.4 Bubbke Sort - "Пузырьковая" сортировка
- 2.5 Mearge Sort
+ 2.5 Mearge Sort - Соритровка массива с помощью merge двух массивов
  2.6 Max Stock Profit
