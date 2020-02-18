@@ -5,8 +5,16 @@ let firstName = 'Saly';
 const Pi = 3.14;
 
 const meal = {
+    id: 1,
     descriptin: 'Breakfast',
-    calories: 400,
 }
-meal.calories = 600;
-console.log(meal.calories);
+
+const updateMeal = {
+    ...meal,
+    descriptin: 'Brunch',
+    calories: 600,
+}
+
+const { id, ...mealWithoutId } = updateMeal;
+
+console.log(id, mealWithoutId);
