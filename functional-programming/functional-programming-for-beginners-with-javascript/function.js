@@ -37,4 +37,26 @@ const friends = ['Nate', 'Jim', 'Scott', 'Dean'];
  */
 
  const greet = R.curry((greeting, name) => `${greeting} ${name}`);
- console.log(greet('Good Morning')('James'));
+// console.log(greet('Good Morning')('James'));
+
+/**
+ * Pure Functions ( Чистые функции )
+ * Процедура = грязная функция
+ */
+
+ function add(x, y) {
+    return x + y;
+ }
+
+ const add2 = (x, y) => x + y;
+
+ let counter = 0;
+
+ function increment() {
+     counter++;
+ }
+
+ /**
+  * Function Composition
+  */
+ 
