@@ -56,7 +56,28 @@ const friends = ['Nate', 'Jim', 'Scott', 'Dean'];
      counter++;
  }
 
- /**
-  * Function Composition
-  */
- 
+/**
+ * Function Composition
+ */
+
+const sentence = 'Lorem ipsom doler sit, amet consectetur';
+
+const wordList = R.split(' ', sentence);
+
+// console.log(wordList);
+
+const wordCount = R.length(R.split(' ', sentence));
+
+// console.log(wordCount);
+
+const countWords = R.compose(R.length, R.split);
+
+console.log(countWords(' ', sentence));
+
+const countWords2 = R.compose(R.length, R.split(' '));
+
+console.log(countWords2(sentence));
+
+const countWords3 = R.pipe(R.split(' '), R.length);
+
+console.log(countWords3(sentence));
